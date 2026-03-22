@@ -1,0 +1,5 @@
+{
+  "name": "proton-pass-cli",
+  "version": "1.0.0",
+  "description": "Proton Pass CLI integration for managing passwords, secrets, and vaults from the command line."
+}

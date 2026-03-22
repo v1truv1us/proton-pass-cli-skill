@@ -1,0 +1,8 @@
+{
+  "name": "proton-pass-cli-skill",
+  "version": "1.0.0",
+  "description": "Proton Pass CLI skill for Claude Code",
+  "scripts": {
+    "build": "bun build.mjs"
+  }
+}

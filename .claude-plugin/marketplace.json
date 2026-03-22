@@ -1,0 +1,19 @@
+{
+  "name": "proton-pass-marketplace",
+  "owner": {
+    "name": "v1truv1us"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Proton Pass CLI integration",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "proton-pass-cli",
+      "source": "./plugins/proton-pass-cli",
+      "description": "Proton Pass CLI skill for managing passwords, secrets, and vaults from the command line",
+      "version": "1.0.0",
+      "keywords": ["proton-pass", "password", "cli", "secrets", "vault"]
+    }
+  ]
+}

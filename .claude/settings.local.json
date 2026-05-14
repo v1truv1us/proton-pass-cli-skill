@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(bun run:*)",
+      "Bash(curl -fsSL https://bun.sh/install)",
+      "Bash(bash)",
+      "Bash(sudo apt-get:*)",
+      "Read(//home/v1truv1us/**)",
+      "Bash(~/.zshrc)",
+      "Bash(export PATH=\"$HOME/.bun/bin:$PATH\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git branch:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(find ~/.claude/plugins -name plugin.json -exec sh -c \"echo \"\"=== $1 ===\"\" && cat \"\"$1\"\"\" _ {})",
+      "Bash(2)",
+      "Bash(find ~/.claude/plugins -type f -name *.json)",
+      "Bash(find ~/.claude/plugins/marketplaces/claude-plugins-official/plugins -name *-lsp -type d)",
+      "Bash(find ~/.claude/plugins/cache/claude-plugins-official -name *-lsp -type d)",
+      "Bash(xargs -I {} basename {})",
+      "Bash(npm install:*)",
+      "Bash(go install:*)"
+    ]
+  }
+}
